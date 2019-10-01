@@ -1,0 +1,33 @@
+.badge {
+  padding: 15px;
+  margin: 10px;
+}
+
+.card-header {
+  background-color: green;
+  text-align: center;
+  color: white;
+  border: none;
+}
+
+.card-body {
+  background-color: #dddddd;
+}
+
+.first {
+  background-color: green;
+  text-align: center;
+  color: white;
+  border: hidden;
+}
+
+body {
+  background-image: url('https://images.pexels.com/photos/206685/pexels-photo-206685.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+}
+
+#sher {
+    margin: auto;
+    width: 60%;
+    border: 0px solid #73AD21;
+    padding: 10px;
+}
