@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Searcher
+=======
+# Githubsearch
+>>>>>>> e066fe141d884ae824d3c5f0cad0696a243b1b46
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 

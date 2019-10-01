@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "searcher",
+=======
+  "name": "githubsearch",
+>>>>>>> e066fe141d884ae824d3c5f0cad0696a243b1b46
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -19,7 +23,10 @@
     "@angular/platform-browser": "~8.2.5",
     "@angular/platform-browser-dynamic": "~8.2.5",
     "@angular/router": "~8.2.5",
+<<<<<<< HEAD
     "boostrap": "^2.0.0",
+=======
+>>>>>>> e066fe141d884ae824d3c5f0cad0696a243b1b46
     "bootstrap": "^4.3.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",

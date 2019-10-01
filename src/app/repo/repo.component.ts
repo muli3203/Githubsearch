@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+<<<<<<< HEAD
 import { UserService } from '../user.service';
+=======
+>>>>>>> e066fe141d884ae824d3c5f0cad0696a243b1b46
 
 @Component({
   selector: 'app-repo',
@@ -8,6 +11,7 @@ import { UserService } from '../user.service';
 })
 export class RepoComponent implements OnInit {
 
+<<<<<<< HEAD
   user1;
   repos;
   userName: string;
@@ -30,6 +34,9 @@ export class RepoComponent implements OnInit {
     });
   }
 
+=======
+  constructor() { }
+>>>>>>> e066fe141d884ae824d3c5f0cad0696a243b1b46
 
   ngOnInit() {
   }
