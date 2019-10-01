@@ -13,20 +13,20 @@ export class GitComponent implements OnInit {
 
 
   constructor(public userSer: UserService) {
-    this.userSer.getUserDetails().subscribe(user=>{
+    this.userSer.getUserDetails().subscribe(user => {
       this.user1 = user;
     });
-    this.userSer.getRepoDetails().subscribe(result=>{
+    this.userSer.getRepoDetails().subscribe(result => {
       this.repos = result;
     });
   }
 
-  findUser(){
+  findUser() {
     this.userSer.updateUsername(this.userName);
-    this.userSer.getUserDetails().subscribe(user=>{
+    this.userSer.getUserDetails().subscribe(user => {
       this.user1 = user;
     });
-    this.userSer.getRepoDetails().subscribe(result=>{
+    this.userSer.getRepoDetails().subscribe(result => {
       this.repos = result;
     });
   }
