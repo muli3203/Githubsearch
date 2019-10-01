@@ -1,0 +1,28 @@
+.card-header {
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+body {
+   background-color: gray;
+
+}
+
+.row {
+  padding: 6px;
+  border-bottom: 1px solid green;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+#sher {
+    margin: auto;
+    width: 60%;
+    border: 0px solid green;
+    padding: 10px;
+}
